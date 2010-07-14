@@ -8,6 +8,7 @@ class PostsController < ApplicationController
   def index
     #pp @template
     @posts = Post.all
+    @my_object = "Hello Igor!"
   end
 
   # GET /posts/1

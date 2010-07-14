@@ -4418,3 +4418,142 @@ Rendering template within layouts/application
 Rendering posts/index
   [4;36;1mSiteTemplate Load (0.4ms)[0m   [0;1mSELECT * FROM "site_templates" [0m
 Completed in 13ms (View: 9, DB: 1) | 200 OK [http://devlist.if.ua/posts]
+  [4;36;1mSiteTemplate Load (1.0ms)[0m   [0;1mSELECT * FROM "site_templates" ORDER BY site_templates.id DESC LIMIT 1[0m
+  [4;35;1mSiteTemplate Update (0.5ms)[0m   [0mUPDATE "site_templates" SET "updated_at" = '2010-07-14 13:39:06', "layout" = '<h1 style="color: green">template #3</h1><%= yield %><div>footer #3</div><%= @my_object %>' WHERE "id" = 3[0m
+
+
+Processing PostsController#index (for 192.168.195.1 at 2010-07-14 09:39:28) [GET]
+  Parameters: {"private"=>"none"}
+  [4;36;1mPost Load (1.3ms)[0m   [0;1mSELECT * FROM "posts" [0m
+Rendering template within layouts/application
+Rendering posts/index
+  [4;35;1mSiteTemplate Load (0.6ms)[0m   [0mSELECT * FROM "site_templates" [0m
+Completed in 81ms (View: 76, DB: 2) | 200 OK [http://devlist.if.ua/?private=none]
+
+
+Processing PostsController#index (for 192.168.195.1 at 2010-07-14 09:39:29) [GET]
+  [4;36;1mPost Load (0.5ms)[0m   [0;1mSELECT * FROM "posts" [0m
+Rendering template within layouts/application
+Rendering posts/index
+  [4;35;1mSiteTemplate Load (0.4ms)[0m   [0mSELECT * FROM "site_templates" [0m
+Completed in 13ms (View: 8, DB: 1) | 200 OK [http://devlist.if.ua/posts]
+
+
+Processing PostsController#index (for 192.168.195.1 at 2010-07-14 09:39:30) [GET]
+  [4;36;1mPost Load (0.5ms)[0m   [0;1mSELECT * FROM "posts" [0m
+Rendering template within layouts/application
+Rendering posts/index
+  [4;35;1mSiteTemplate Load (0.4ms)[0m   [0mSELECT * FROM "site_templates" [0m
+Completed in 14ms (View: 9, DB: 1) | 200 OK [http://devlist.if.ua/posts]
+
+
+Processing PostsController#index (for 192.168.195.1 at 2010-07-14 09:39:30) [GET]
+  [4;36;1mPost Load (0.7ms)[0m   [0;1mSELECT * FROM "posts" [0m
+Rendering template within layouts/application
+Rendering posts/index
+  [4;35;1mSiteTemplate Load (0.6ms)[0m   [0mSELECT * FROM "site_templates" [0m
+Completed in 19ms (View: 12, DB: 1) | 200 OK [http://devlist.if.ua/posts]
+
+
+Processing PostsController#index (for 192.168.195.1 at 2010-07-14 09:39:30) [GET]
+  [4;36;1mPost Load (0.5ms)[0m   [0;1mSELECT * FROM "posts" [0m
+Rendering template within layouts/application
+Rendering posts/index
+  [4;35;1mSiteTemplate Load (0.4ms)[0m   [0mSELECT * FROM "site_templates" [0m
+Completed in 13ms (View: 9, DB: 1) | 200 OK [http://devlist.if.ua/posts]
+
+
+Processing PostsController#index (for 192.168.195.1 at 2010-07-14 09:39:30) [GET]
+  [4;36;1mPost Load (0.5ms)[0m   [0;1mSELECT * FROM "posts" [0m
+Rendering template within layouts/application
+Rendering posts/index
+  [4;35;1mSiteTemplate Load (0.4ms)[0m   [0mSELECT * FROM "site_templates" [0m
+Completed in 13ms (View: 9, DB: 1) | 200 OK [http://devlist.if.ua/posts]
+
+
+Processing PostsController#index (for 192.168.195.1 at 2010-07-14 09:39:31) [GET]
+  [4;36;1mPost Load (0.5ms)[0m   [0;1mSELECT * FROM "posts" [0m
+Rendering template within layouts/application
+Rendering posts/index
+  [4;35;1mSiteTemplate Load (0.4ms)[0m   [0mSELECT * FROM "site_templates" [0m
+Completed in 13ms (View: 9, DB: 1) | 200 OK [http://devlist.if.ua/posts]
+
+
+Processing PostsController#index (for 192.168.195.1 at 2010-07-14 09:39:31) [GET]
+  [4;36;1mPost Load (0.5ms)[0m   [0;1mSELECT * FROM "posts" [0m
+Rendering template within layouts/application
+Rendering posts/index
+  [4;35;1mSiteTemplate Load (0.4ms)[0m   [0mSELECT * FROM "site_templates" [0m
+Completed in 13ms (View: 9, DB: 1) | 200 OK [http://devlist.if.ua/posts]
+
+
+Processing PostsController#index (for 192.168.195.1 at 2010-07-14 09:39:32) [GET]
+  [4;36;1mPost Load (0.5ms)[0m   [0;1mSELECT * FROM "posts" [0m
+Rendering template within layouts/application
+Rendering posts/index
+  [4;35;1mSiteTemplate Load (0.5ms)[0m   [0mSELECT * FROM "site_templates" [0m
+Completed in 14ms (View: 9, DB: 1) | 200 OK [http://devlist.if.ua/posts]
+
+
+Processing PostsController#index (for 192.168.195.1 at 2010-07-14 09:39:32) [GET]
+  [4;36;1mPost Load (0.5ms)[0m   [0;1mSELECT * FROM "posts" [0m
+Rendering template within layouts/application
+Rendering posts/index
+  [4;35;1mSiteTemplate Load (0.4ms)[0m   [0mSELECT * FROM "site_templates" [0m
+Completed in 14ms (View: 9, DB: 1) | 200 OK [http://devlist.if.ua/posts]
+
+
+Processing PostsController#index (for 192.168.195.1 at 2010-07-14 09:39:32) [GET]
+  [4;36;1mPost Load (0.6ms)[0m   [0;1mSELECT * FROM "posts" [0m
+Rendering template within layouts/application
+Rendering posts/index
+  [4;35;1mSiteTemplate Load (0.4ms)[0m   [0mSELECT * FROM "site_templates" [0m
+Completed in 13ms (View: 8, DB: 1) | 200 OK [http://devlist.if.ua/posts]
+
+
+Processing PostsController#index (for 192.168.195.1 at 2010-07-14 09:39:32) [GET]
+  [4;36;1mPost Load (0.5ms)[0m   [0;1mSELECT * FROM "posts" [0m
+Rendering template within layouts/application
+Rendering posts/index
+  [4;35;1mSiteTemplate Load (0.4ms)[0m   [0mSELECT * FROM "site_templates" [0m
+Completed in 12ms (View: 8, DB: 1) | 200 OK [http://devlist.if.ua/posts]
+
+
+Processing PostsController#index (for 192.168.195.1 at 2010-07-14 09:39:32) [GET]
+  [4;36;1mPost Load (0.5ms)[0m   [0;1mSELECT * FROM "posts" [0m
+Rendering template within layouts/application
+Rendering posts/index
+  [4;35;1mSiteTemplate Load (0.4ms)[0m   [0mSELECT * FROM "site_templates" [0m
+Completed in 13ms (View: 9, DB: 1) | 200 OK [http://devlist.if.ua/posts]
+
+
+Processing PostsController#index (for 192.168.195.1 at 2010-07-14 09:39:32) [GET]
+  [4;36;1mPost Load (0.5ms)[0m   [0;1mSELECT * FROM "posts" [0m
+Rendering template within layouts/application
+Rendering posts/index
+  [4;35;1mSiteTemplate Load (0.4ms)[0m   [0mSELECT * FROM "site_templates" [0m
+Completed in 13ms (View: 9, DB: 1) | 200 OK [http://devlist.if.ua/posts]
+
+
+Processing PostsController#index (for 192.168.195.1 at 2010-07-14 09:39:33) [GET]
+  [4;36;1mPost Load (0.8ms)[0m   [0;1mSELECT * FROM "posts" [0m
+Rendering template within layouts/application
+Rendering posts/index
+  [4;35;1mSiteTemplate Load (0.4ms)[0m   [0mSELECT * FROM "site_templates" [0m
+Completed in 15ms (View: 8, DB: 1) | 200 OK [http://devlist.if.ua/posts]
+
+
+Processing PostsController#index (for 192.168.195.1 at 2010-07-14 09:39:33) [GET]
+  [4;36;1mPost Load (1.2ms)[0m   [0;1mSELECT * FROM "posts" [0m
+Rendering template within layouts/application
+Rendering posts/index
+  [4;35;1mSiteTemplate Load (0.6ms)[0m   [0mSELECT * FROM "site_templates" [0m
+Completed in 22ms (View: 13, DB: 2) | 200 OK [http://devlist.if.ua/posts]
+
+
+Processing PostsController#index (for 192.168.195.1 at 2010-07-14 09:39:33) [GET]
+  [4;36;1mPost Load (0.5ms)[0m   [0;1mSELECT * FROM "posts" [0m
+Rendering template within layouts/application
+Rendering posts/index
+  [4;35;1mSiteTemplate Load (0.5ms)[0m   [0mSELECT * FROM "site_templates" [0m
+Completed in 13ms (View: 9, DB: 1) | 200 OK [http://devlist.if.ua/posts]
