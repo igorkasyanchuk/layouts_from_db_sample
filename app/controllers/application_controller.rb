@@ -7,4 +7,17 @@ class ApplicationController < ActionController::Base
 
   # Scrub sensitive parameters from your log
   # filter_parameter_logging :password
+  
+  def self.layout_by_actions(h)
+    layout :determine_layout
+    code = lambda {
+      res = "application"
+      h.each do |k,v|
+       (res = k; break) if v.include?self.action_name
+      end
+      res
+    }
+    define_method(:determine_layout, code)
+  end  
+  
 end

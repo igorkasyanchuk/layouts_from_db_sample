@@ -1,5 +1,8 @@
 require 'hirb'
 class PostsController < ApplicationController
+  
+  layout_by_actions({'admin' => ['new', 'edit']})
+  
   # GET /posts
   # GET /posts.xml
   def index
